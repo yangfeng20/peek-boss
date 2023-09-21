@@ -3,6 +3,7 @@
 // @namespace    http://tampermonkey.net/
 // @version      0.1
 // @author       maple
+// @license      Apache License 2.0
 // @description  偷偷查看Boss直聘;作用于公司上班环境，不适合查看boss的场景。修改了boss的图标以及标题。
 // @require      https://unpkg.com/maple-lib@1.0.3/log.js
 // @match        https://www.zhipin.com/*
