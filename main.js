@@ -178,6 +178,11 @@ class PeekBoss {
     }
 
     mockIcon() {
+        let listPageIcon = document.head.querySelector('[rel="shortcut icon"]');
+        if (listPageIcon && listPageIcon.href !== this.mbc.getIconUrl()) {
+            listPageIcon.href = this.mbc.getIconUrl();
+        }
+
         // 获取<head>元素
         let head = document.head || document.getElementsByTagName('head')[0];
         let oldLink = head.querySelector('link[rel="icon"]');
