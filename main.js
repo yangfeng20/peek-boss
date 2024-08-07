@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Peek-Boss [窥视Boss直聘]
 // @namespace    http://tampermonkey.net/
-// @version      0.2
+// @version      0.3
 // @author       maple
 // @license      Apache License 2.0
 // @description  偷偷查看Boss直聘;作用于公司上班环境，不适合查看boss的场景。修改了boss的图标以及标题。以及对色彩做了暗色处理，使它看起来不那么明显。
