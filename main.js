@@ -122,6 +122,8 @@ class PeekBoss {
         .job-search-box .job-search-form .city-label{background-color: ${bgColor};}
          img {filter: grayscale(1);}
         .job-card-wrapper .job-card-left .info-public {background: #3d3737;}
+        .page-sign {background: ${bgColor}}
+        .sms-form-wrapper .sms-form-btn .sure-btn {background: ${bgColor}}
             `)
         }
     }
