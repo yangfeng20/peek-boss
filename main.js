@@ -124,6 +124,11 @@ class PeekBoss {
         .job-card-wrapper .job-card-left .info-public {background: #3d3737;}
         .page-sign {background: ${bgColor}}
         .sms-form-wrapper .sms-form-btn .sure-btn {background: ${bgColor}}
+        .job-body-wrapper .smallbanner {background: #333;}
+        .job-body-wrapper .smallbanner .name .badge {color: #414a60;}
+        .job-body-wrapper .smallbanner .detail-op .btn-startchat {background: ${bgColor}}
+        .job-body-wrapper .job-sider .sign-form {background: ${bgColor}}
+        .job-body-wrapper .job-sider .form-btn .btn {background: ${bgColor}}
             `)
         }
     }
